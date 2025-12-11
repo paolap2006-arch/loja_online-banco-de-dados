@@ -16,7 +16,7 @@
 <body>
 
     <div class="container">
-        <h1>Página Principal</h1>
+        <h1>L O J A S</h1>
 
         <table class="table">
             <thead>
@@ -81,8 +81,20 @@
             <input type="text" name="txtrua" 
             placeholder="Digite a rua da loja..">
 
-            <input type="text" name="txttelefone" 
-            placeholder="Digite o telefone da loja..">
+            <input type="text" name="txtnumero" 
+            placeholder="Digite o numero da loja..">
+
+            <input type="text" name="txtbairro" 
+            placeholder="Digite o bairro da loja..">
+
+            <input type="text" name="txtcep" 
+            placeholder="Digite o cep da loja..">
+
+            <input type="text" name="txtcomplemento" 
+            placeholder="Digite o complemento da loja..">
+
+            <input type="text" name="txtcidade" 
+            placeholder="Digite a cidade da loja..">
 
             <input type="submit" value="Salvar" name="btnSalvar" class="btn btn-success">
         </form>

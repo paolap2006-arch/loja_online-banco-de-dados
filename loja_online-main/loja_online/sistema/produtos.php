@@ -16,7 +16,7 @@
 <body>
 
     <div class="container">
-        <h1>Página Principal</h1>
+        <h1>P R O D U T O S</h1>
 
         <table class="table">
             <thead>
@@ -65,14 +65,29 @@
         </table>
         
         <form action="adicionar.php" method="POST">
-            <input type="text" name="txtNome" 
-            placeholder="Digite o nome do aluno.." required>
+            <input type="text" name="txt#" 
+            placeholder="Digite o #.." required>
 
-            <input type="email" name="txtEmail" 
-            placeholder="Digite o email do aluno.." required>
+            <input type="text" name="txtnome" 
+            placeholder="Digite o nome.." required>
+
+            <input type="text" name="txtdescricao" 
+            placeholder="Digite a descricao.." required>
+
+            <input type="text" name="txtpreco" 
+            placeholder="Digite o preco.." required>
+
+            <input type="text" name="txttipo" 
+            placeholder="Digite o tipo.." required>
+
+            <input type="text" name="txtcategoria" 
+            placeholder="Digite a categoria.." required>
             
             <input type="date" name="txtData" 
-            placeholder="Digite a data de nascimento do aluno..">
+            placeholder="Digite a data..">
+
+            <input type="text" name="txtdesconto" 
+            placeholder="Digite o desconto.." required>
 
             <input type="submit" value="Salvar" name="btnSalvar" class="btn btn-success">
         </form>
